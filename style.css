@@ -36,3 +36,15 @@ body {
 .attribution a {
      color: hsl(228, 45%, 44%); 
 }
+.container {
+    position: relative;
+    border-bottom: 2px solid var(--light-grayish-blue);
+    padding: 5px;
+}
+
+.question {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
