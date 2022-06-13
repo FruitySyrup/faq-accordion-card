@@ -47,4 +47,16 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.answer.open {
+    display: block;
+
 }
