@@ -20,3 +20,15 @@
 body {
     font-family: 'Kumbh Sans', sans-serif;
 }
+
+.container {
+    position: relative;
+    
+}
+
+.question {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
