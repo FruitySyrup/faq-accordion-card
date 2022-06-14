@@ -44,11 +44,20 @@ body {
     cursor: pointer;
 }
 
+.question:hover {
+    color: var(--soft-red);
+}
+
 .question + .answer {
     display: none;
     overflow: hidden;
     transition: all ease 1s;
 }
+
+.bold {
+    font-weight: 700;
+}
+
 /* this will be added to answer div using JS */
 .question.open + .answer {
     display: block;
