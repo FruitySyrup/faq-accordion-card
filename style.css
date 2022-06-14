@@ -29,13 +29,7 @@ body {
     z-index: 2;
 }
 
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-}
-.attribution a {
-     color: hsl(228, 45%, 44%); 
-}
+
 .container {
     position: relative;
     border-bottom: 2px solid var(--light-grayish-blue);
@@ -53,10 +47,18 @@ body {
 .answer {
     display: none;
     overflow: hidden;
-    transition: all 0.5s;
+    transition: all ease 1s;
 }
 
 .answer.open {
     display: block;
+}
 
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
 }
