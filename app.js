@@ -8,11 +8,10 @@
 //   })
 // }
 
-const containerTag = document.querySelector ('.container')
-var i 
+const questionTag = document.querySelectorAll('.question')
 
-for (i=0; i< containerTag.length; i++) {
-    containerTag[i].addEventListener('click', function (){
-        this.classList.toggle('open');
+questionTag.forEach(questionTag => {
+    questionTag.addEventListener('click', () => {
+        questionTag.classList.toggle('open')
     })
-}
+})
