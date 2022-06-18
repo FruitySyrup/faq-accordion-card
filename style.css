@@ -58,6 +58,10 @@ body {
     font-weight: 700;
 }
 
+.arrow.rotate {
+    transform: rotate(180deg);
+}
+
 /* this will be added to answer div using JS */
 .question.open + .answer {
     display: block;
