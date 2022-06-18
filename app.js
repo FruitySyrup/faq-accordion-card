@@ -15,3 +15,9 @@ questionTag.forEach(questionTag => {
     });
 });
 
+
+const arrowTag = document.querySelectorAll('img.arrow')
+
+questionTag.addEventListener('click', () => {
+        arrowTag.classList.toggle('rotate');
+    });
