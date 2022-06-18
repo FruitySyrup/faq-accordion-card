@@ -14,3 +14,9 @@ questionTag.forEach(questionTag => {
         }
     });
 });
+
+questionTag.forEach(questionTag => {
+    questionTag.addEventListener('click', () => {
+        questionTag.classList.add('bold');
+    })
+})

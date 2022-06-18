@@ -54,7 +54,7 @@ body {
     transition: all ease 1s;
 }
 
-.bold {
+.question.open {
     font-weight: 700;
 }
 
