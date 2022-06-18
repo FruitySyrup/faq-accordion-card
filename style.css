@@ -19,15 +19,22 @@
 
 body {
     font-family: 'Kumbh Sans', sans-serif;
+    background-color: var(--soft-violet);
 }
 
 .main {
     display: flex;
+    max-width: 800px;
+
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
 }
 
 .box {
     z-index: 2;
 }
+
 
 
 .container {
