@@ -11,16 +11,16 @@ html {
   --line-height-summary-detail: 1.8rem;
 
   /* Colors */
-  /* blue */
+
   --dark-des-blue: hsl(238, 29%, 16%);
   --very-dark-gray-blue: hsl(237, 12%, 33%);
   --dark-gray-blue: hsl(240, 6%, 50%);
   --light-gray-blue: hsl(240, 5%, 91%);
   --soft-blue: hsl(240, 73%, 65%);
-  /* violet & red */
+
   --red: hsl(14, 88%, 65%);
   --violet: hsl(273, 75%, 66%);
-  /* background */
+
   --background-col: linear-gradient(180deg, #b068e9 0%, #6463e7 100%);
 
   /* z-index */
