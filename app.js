@@ -22,4 +22,4 @@ items.forEach(item => {
             itemAnswer.style.maxHeight = `${scrollHeight}px`
     }
     })
-})
+});
