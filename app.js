@@ -1,6 +1,6 @@
 //Order of code steps
 //1. Grab our items
-const items = [...document.querySelectorAll('li.faq__faq-item')]
+const items = [...document.querySelectorAll('li.faq_faq-item')]
 //2. Add event listeners to our items that handle an item click.
 //3. handleItemClick function -> 
 //3.1 Grab the clicked item
@@ -20,7 +20,7 @@ const activateItem = (itemDetail) => {
 
 const handleItemClick = (e) => {
     const clickedItem = e.target.closest('li')
-    const itemDetail = clickedItem.querySelector('.faq-item__detail')
+    const itemDetail = clickedItem.querySelector('.faq-item_answer')
     const clickedItemActive = clickedItem.classList.contains('active')
     clickedItem.classList.toggle('active')
     if (clickedItemActive) {
