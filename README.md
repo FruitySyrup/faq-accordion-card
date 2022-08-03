@@ -40,16 +40,21 @@ Users should be able to:
 
 ### What I learned
 
-This chanllege was very diffcult for me initally. The code that I based 
+This chanllege was very diffcult for me initally. I tried my own using flexbox and simple code for the accordion but items where not aligning correctly. Another diffcult point was getting the images right, I attempted to used absolute and relative positions but items would get knocked around when resizing the page or just not attaching to what I want. 
+I started to research how other coders did the challenge and there were many different solutions and some did not function very well.
+the code that I pulled from (see useful resources) has the best finished product. In this example I got introduced to grid, clamp, picture html element
 
 
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+This project made me realize I need to get more comforable with grid, transition and ways to make responsive styles. 
 
 
 ### Useful resources
 
-- [Seer Studio Video](https://www.youtube.com/watch?v=mLZGpEHgOO8&t=760s) I based my code off of this video.- I based my code off of this video.
+- [Seer Studio Video](https://www.youtube.com/watch?v=mLZGpEHgOO8&t=760s) - I based my code off of this video.
+- [Clamp video](https://www.youtube.com/watch?v=U9VF-4euyRo) - This video explained clamp that the above coder used.
+- [CSS Grid by Kevin Powell](https://www.youtube.com/watch?v=rg7Fvvl3taU) - This gave me a good introduction to grid, sine I've only ever been exposed to Flexbox.
+- [A complete guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - This helped full in the blanks. Seer Studio used some very advance grid techniques and this article helped me understand the code. 
 
