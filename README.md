@@ -42,8 +42,7 @@ Users should be able to:
 
 This chanllege was very diffcult for me initally. I tried my own using flexbox and simple code for the accordion but items where not aligning correctly. Another diffcult point was getting the images right, I attempted to used absolute and relative positions but items would get knocked around when resizing the page or just not attaching to what I want. 
 I started to research how other coders did the challenge and there were many different solutions and some did not function very well.
-the code that I pulled from (see useful resources) has the best finished product. In this example I got introduced to grid, clamp, picture html element
-
+the code that I pulled from (see useful resources) has the best finished product. In this example I got introduced to grid, clamp and picture html element.
 
 
 ### Continued development
